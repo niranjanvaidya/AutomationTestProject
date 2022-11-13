@@ -36,7 +36,7 @@ public class HomePage {
 			qty--;
 		}
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		//driver.findElement(By.xpath("//button[@type=\"submit\"]")).click();
+		
 		WebElement Search = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//button[@type=\"submit\"]"))));
 		Search.click();
 		
