@@ -21,8 +21,6 @@ public class HomePage {
 
 		AddItemToCart(driver, "the-forest-soul-series-elephant", "M", 2);
 		AddItemToCart(driver, "sailor-at-heart", "L", 2);
-		
-
 	}
 
 	public static void AddItemToCart(WebDriver driver, String productName, String size, int qty) {
